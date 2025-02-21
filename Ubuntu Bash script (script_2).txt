@@ -1,0 +1,12 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+vaibhavipatel@H107-PN-LT:~$ mkdir dna
+vaibhavipatel@H107-PN-LT:~$ cd dna
+vaibhavipatel@H107-PN-LT:~/dna$ nano test.sh
+vaibhavipatel@H107-PN-LT:~/dna$ bash test.sh
+vaibhavipatel@H107-PN-LT:~/dna$ nano test.sh
+vaibhavipatel@H107-PN-LT:~/dna$ bash unixdna.sh
+mkdir: cannot create directory ‘dnafiles’: File exists
+vaibhavipatel@H107-PN-LT:~/dna$ bash unixdna.sh
+vaibhavipatel@H107-PN-LT:~/dna$
